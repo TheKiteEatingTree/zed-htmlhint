@@ -1,0 +1,14 @@
+{ 
+    "modes": {
+        "html": {
+            "commands": {
+                "Tools:Check": {
+                    "scriptUrl": "/html/check.js"
+                }
+            },
+            "handlers": {
+                "check": ["Tools:Check"]
+            }
+        }
+    }
+}

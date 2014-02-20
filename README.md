@@ -1,4 +1,9 @@
 zed-htmlhint
 ============
 
-html hint added to zed
+HTML hint added to zed.
+
+
+## Libraries
+
+[HTMLHint](https://github.com/yaniswang/HTMLHint)

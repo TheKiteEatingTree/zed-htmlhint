@@ -1,0 +1,6 @@
+{
+    "name": "HTMLHint",
+    "id": "net.andrewstephan.zed.htmlhint",
+    "configFile": "htmlhint.json",
+    "files": ["check.js", "htmlhint.js"]
+}
