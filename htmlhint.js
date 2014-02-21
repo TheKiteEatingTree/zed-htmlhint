@@ -433,7 +433,7 @@ HTMLHint.addRule({
                 var cssVerify;
 
                 if(typeof exports === 'object' && require){
-                    cssVerify = require("/default/mode/css/csslint.js").CSSLint.verify;
+                    cssVerify = require("configfs!/default/mode/css/csslint.js").CSSLint.verify;
                 }
                 else{
                     cssVerify = CSSLint.verify;
@@ -665,7 +665,7 @@ HTMLHint.addRule({
                 var jsVerify;
 
                 if(typeof exports === 'object' && require){
-                    jsVerify = require("/default/mode/javascript/jshint.js");
+                    jsVerify = require("configfs!/default/mode/javascript/jshint.js");
                 }
                 else{
                     jsVerify = JSHINT;
