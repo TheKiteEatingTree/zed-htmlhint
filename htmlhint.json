@@ -3,7 +3,7 @@
         "html": {
             "commands": {
                 "Tools:Check": {
-                    "scriptUrl": "check.js"
+                    "scriptUrl": "/net.andrewstephan.zed.htmlhint/check.js"
                 }
             },
             "handlers": {
