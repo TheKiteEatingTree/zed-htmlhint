@@ -1,6 +1,8 @@
 {
     "name": "HTMLHint",
     "id": "net.andrewstephan.zed.htmlhint",
+    "version": "0.1.0",
+    "description": "HTML syntax checking",
     "configFile": "htmlhint.json",
     "files": ["check.js", "htmlhint.js"]
 }
