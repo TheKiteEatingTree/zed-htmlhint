@@ -6,6 +6,7 @@ define(function(require, exports, module) {
         var path = info.path;
         session.getText(path, function(err, text) {
             var result = HTMLHint.verify(text);
+            console.log('htmlhint');
             callback(null, result.map(function(msg) {
                 return {
                     row: msg.line - 1,
