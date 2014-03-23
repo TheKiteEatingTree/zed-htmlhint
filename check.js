@@ -1,5 +1,5 @@
 define(function(require, exports, module) {
-    var HTMLHint = require("configfs!/net.andrewstephan.zed.htmlhint/htmlhint.js").HTMLHint;
+    var HTMLHint = require("./htmlhint.js").HTMLHint;
     var session = require("zed/session");
 
     return function(info, callback) {
